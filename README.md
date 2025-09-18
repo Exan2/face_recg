@@ -35,11 +35,11 @@ python setup.py
 
 ### 2. Database Setup
 
-Create a PostgreSQL database:
+Create a PostgreSQL database (use your own secure credentials):
 ```sql
 CREATE DATABASE face_rec;
-CREATE USER exan WITH PASSWORD 'exan';
-GRANT ALL PRIVILEGES ON DATABASE face_rec TO exan;
+CREATE USER your_user WITH PASSWORD 'your_strong_password';
+GRANT ALL PRIVILEGES ON DATABASE face_rec TO your_user;
 ```
 
 ### 3. Start Services
@@ -141,12 +141,12 @@ npm run electron-dev
 ### Backend Configuration (`server/.env`)
 ```env
 DB_NAME=face_rec
-DB_USER=exan
-DB_PASSWORD=exan
+DB_USER=your_user
+DB_PASSWORD=your_strong_password
 DB_HOST=localhost
 DB_PORT=5432
 PORT=5000
-JWT_SECRET=your-secret-key
+JWT_SECRET=change_me_secret
 PYTHON_SERVICE_URL=http://localhost:8000
 DROIDCAM_IP=192.168.1.100
 DROIDCAM_PORT=4747
