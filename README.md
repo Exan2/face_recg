@@ -252,5 +252,5 @@ For support and questions, please open an issue in the repository.
 
 ---
 
-**Built with ❤️ for secure employee access control**
+
 # face_recg
