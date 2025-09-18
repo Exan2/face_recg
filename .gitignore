@@ -1,0 +1,12 @@
+.env
+node_modules/
+client/.next/
+client/out/
+client/dist/
+server/node_modules/
+server/uploads/
+python_service/__pycache__/
+python_service/.venv/
+*.log
+.DS_Store
+

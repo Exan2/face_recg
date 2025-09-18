@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+opencv-python
+numpy
+Pillow
+requests
+python-dotenv
+scikit-learn
+deepface
+tensorflow
+tf-keras
+mtcnn
+retina-face
